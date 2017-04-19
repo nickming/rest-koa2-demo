@@ -1,0 +1,23 @@
+{
+  "name": "rest-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nickming",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickming/rest-koa2-demo.git"
+  },
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.1.1",
+    "mime": "^1.3.4",
+    "mz": "^2.6.0",
+    "nunjucks": "^3.0.0"
+  }
+}
