@@ -24,7 +24,9 @@ function Product(name, company, price) {
     this.company = company;
     this.price = price;
 }
-
+/**
+ * 模拟数据库数据源
+ */
 var products = [new Product('iphone7', "Apple", 6800), new Product('mi6', 'XiaoMi', 2399), new Product('imoo', 'BBK', 1699)];
 
 module.exports = {
